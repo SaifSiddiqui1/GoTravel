@@ -1,0 +1,14 @@
+{
+  "name": "gotravel-saas",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:web": "cd apps/web && npm run dev",
+    "dev:admin": "cd apps/admin && npm run dev",
+    "dev:api": "cd apps/api && npm run dev"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
